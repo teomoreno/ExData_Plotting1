@@ -9,5 +9,7 @@ with(data_sub, {
 legend("topright", col = c("black", "red", "blue"), lty = 1, lwd = 2, 
        legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
+# Directing Plot 3 to png File
+
 dev.copy(png,"plot3.png", width = 480, height = 480)
 dev.off()
