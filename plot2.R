@@ -1,6 +1,6 @@
 # Generating Plot 2 
 
-plot(data_sub$Global_active_power ~ data$Date_time, type = "l", ylab = "Global Active Power (kilowatts)", xlab = "")
+plot(data_sub$Global_active_power ~ data$Date_time, ylab = "Global Active Power (kilowatts)", xlab = "", type = "l")
 
 # Directing Plot 2 to png File
 
