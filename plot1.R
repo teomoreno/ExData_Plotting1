@@ -1,6 +1,6 @@
 # Generating Plot 1
 
-hist(data_sub$Global_active_power, col = "red", main = paste("Global Active Power"), xlab = "Global Active Power (kilowatts)") 
+hist(data_sub$Global_active_power, main = paste("Global Active Power"), xlab = "Global Active Power (kilowatts)", col = "red")
 
 # Directing Plot 1 to png File
 
