@@ -2,5 +2,7 @@
 
 hist(data_sub$Global_active_power, col = "red", main = paste("Global Active Power"), xlab = "Global Active Power (kilowatts)") 
 
+# Saving Plot 1 to png File
+
 dev.copy(png,"plot1.png", width = 480, height = 480)
 dev.off()
