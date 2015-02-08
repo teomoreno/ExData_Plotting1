@@ -9,6 +9,7 @@ data_source$Date <- as.Date(data_source$Date, format = "%d/%m/%Y")
 # Subsetting Data 2007-02-01 to 2007-02-02
 
 data_sub <- subset(data_source, subset = (Date >= "2007-02-01" & Date <= "2007-02-02"))
+rm(data_source)
 
 # Adding New Date/Time Variable Column by Merging Date & Time Variables
 
